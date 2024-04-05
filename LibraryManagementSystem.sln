@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33801.447
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagementSystem", "ShopManagementApp01\LibraryManagementSystem.csproj", "{C7AEC92C-8121-4718-B713-D12DDDC8FE50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HB", "HBClass\HB.csproj", "{FBF31D53-0BF7-4D85-A242-1DA77B75BD93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7AEC92C-8121-4718-B713-D12DDDC8FE50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AEC92C-8121-4718-B713-D12DDDC8FE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AEC92C-8121-4718-B713-D12DDDC8FE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AEC92C-8121-4718-B713-D12DDDC8FE50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF31D53-0BF7-4D85-A242-1DA77B75BD93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF31D53-0BF7-4D85-A242-1DA77B75BD93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF31D53-0BF7-4D85-A242-1DA77B75BD93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF31D53-0BF7-4D85-A242-1DA77B75BD93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {842A4BEC-F9D5-4924-8189-22B8F95EB1D9}
+	EndGlobalSection
+EndGlobal

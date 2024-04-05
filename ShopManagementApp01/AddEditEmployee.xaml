@@ -1,0 +1,54 @@
+﻿<Window x:Class="ShopManagementApp01.AddEditEmployee"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShopManagementApp01"
+        mc:Ignorable="d"
+        Title="AddEditEmployee" FontSize="24" Height="690" Width="700">
+    <Grid Background="Coral">
+        <StackPanel Margin="20" Background="SeaShell">
+            <DockPanel Margin="10">
+                <Label Margin="10">First Name :</Label>
+                <TextBox Margin="10" HorizontalAlignment="Right" Width="400" Name="TxtEmployeeFirstName" TextChanged="TxtEmployeeFirstName_TextChanged"/>
+            </DockPanel>
+
+            <DockPanel Margin="10">
+                <Label Margin="10">Last Name : </Label>
+                <TextBox Margin="10" HorizontalAlignment="Right" Width="400" Name="TxtEmployeeLastName" TextChanged="TxtEmployeeLastName_TextChanged"/>
+            </DockPanel>
+
+            <DockPanel Margin="10">
+                <Label Margin="10">Phonenumber : </Label>
+                <TextBox Margin="10" HorizontalAlignment="Right" Width="400" Name="TxtEmployeePhoneNumber" TextChanged="TxtEmployeePhoneNumber_TextChanged"/>
+            </DockPanel>
+
+            <DockPanel Margin="10">
+                <Label Margin="10">Address : </Label>
+                <TextBox Margin="10" HorizontalAlignment="Right" Width="400" Name="TxtEmployeeAddress" TextChanged="TxtEmployeeAddress_TextChanged"/>
+            </DockPanel>
+
+            <DockPanel Margin="10">
+                <Label Margin="10">Department : </Label>
+                <ComboBox Margin="10" HorizontalAlignment="Right" Width="400" Name="CmbDepartment">
+                    <ComboBoxItem>Production</ComboBoxItem>
+                    <ComboBoxItem>Sales</ComboBoxItem>
+                    <ComboBoxItem>Advertisement</ComboBoxItem>
+                    <ComboBoxItem>Management</ComboBoxItem>
+                </ComboBox>
+            </DockPanel>
+
+            <DockPanel Margin="10">
+                <Label Margin="10">Base Salary : </Label>
+                <TextBox Margin="10" HorizontalAlignment="Right" Width="400" Name="TxtEmployeeBaseSalary" TextChanged="TxtEmployeeBaseSalary_TextChanged"/>
+            </DockPanel>
+
+            <Label Name="LblEmployeeError" Margin="0,0,20,0" FontSize="16" HorizontalAlignment="Right" Foreground="Red"/>
+
+            <DockPanel Margin="10" HorizontalAlignment="Right">
+                <Button Margin="10" Width="120" Height="50" Background="DarkRed" Foreground="SeaShell" Name="BtnCancel" Click="BtnCancel_Click">Cancel</Button>
+                <Button Margin="10" Width="120" Height="50" Background="Navy" Foreground="SeaShell" Name="BtnOk" Click="BtnOk_Click">OK</Button>
+            </DockPanel>
+        </StackPanel>
+    </Grid>
+</Window>
